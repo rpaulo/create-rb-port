@@ -4,7 +4,8 @@ Creates a FreeBSD rubygem port based on a Gemfile spec retrieved automatically
 from RubyGems.org
 
 Example:
-``
+```
+# console
 % ./create-rb-port.rb autotest
 Downloading metadata for Gem 'autotest'...
 Found autotest version 4.4.6
@@ -44,4 +45,4 @@ This is a stub gem to fix the confusion caused by autotest being part
 of the ZenTest suite.
 
 WWW: http://www.zenspider.com/ZSS/Products/ZenTest/
-``
+```
