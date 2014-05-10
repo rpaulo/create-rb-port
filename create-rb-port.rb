@@ -104,7 +104,7 @@ File.open('Makefile', 'w') do |f|
     f.puts "USE_RUBYGEMS=\tyes"
     f.puts "RUBYGEM_AUTOPLIST=yes"
     f.puts
-    f.puts "PLIST_FILES="
+    f.puts "PLIST_FILES=\t????"
     f.puts
     f.puts ".include <bsd.port.mk>"
 end
