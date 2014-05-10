@@ -5,7 +5,6 @@ from RubyGems.org
 
 Example:
 ```
-# console
 % ./create-rb-port.rb autotest
 Downloading metadata for Gem 'autotest'...
 Found autotest version 4.4.6
@@ -19,25 +18,25 @@ pkg-descr
 # Created by: XXX <foo@bar.com>
 # $FreeBSD$
 
-PORTNAME=	autotest
-PORTVERSION=	4.4.6
-CATEGORIES=	rubygems CATEGORY
-MASTER_SITES=	RG
+PORTNAME=       autotest
+PORTVERSION=    4.4.6
+CATEGORIES=     rubygems CATEGORY
+MASTER_SITES=   RG
 
-MAINTAINER=	ruby@FreeBSD.org
-COMMENT=	This is a stub gem to fix the confusion caused by autotest being part of the ZenTest suite
+MAINTAINER=     ruby@FreeBSD.org
+COMMENT=        This is a stub gem to fix the confusion caused by autotest being part of the ZenTest suite
 
-LICENSE=	????
+LICENSE=        ????
 
-RUN_DEPENDS=	rubygem-ZenTest>=4.4.1:${PORTSDIR}/CATEGORY/rubygem-ZenTest
-		rubygem-rubyforge>=2.0.4:${PORTSDIR}/CATEGORY/rubygem-rubyforge
-		rubygem-minitest>=1.6.0:${PORTSDIR}/CATEGORY/rubygem-minitest
-		rubygem-hoe>=2.6.0:${PORTSDIR}/CATEGORY/rubygem-hoe
-USE_RUBY=	yes
-USE_RUBYGEMS=	yes
+RUN_DEPENDS=    rubygem-ZenTest>=4.4.1:${PORTSDIR}/CATEGORY/rubygem-ZenTest
+                rubygem-rubyforge>=2.0.4:${PORTSDIR}/CATEGORY/rubygem-rubyforge
+                rubygem-minitest>=1.6.0:${PORTSDIR}/CATEGORY/rubygem-minitest
+                rubygem-hoe>=2.6.0:${PORTSDIR}/CATEGORY/rubygem-hoe
+USE_RUBY=       yes
+USE_RUBYGEMS=   yes
 RUBYGEM_AUTOPLIST=yes
 
-PLIST_FILES=
+PLIST_FILES=	????
 
 .include <bsd.port.mk>
 % cat rubygem-autotest/pkg-descr
